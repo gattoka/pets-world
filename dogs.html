@@ -1,0 +1,216 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Породы собак - Любовь и забота о ваших питомцах</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        .breed-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .breed-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            transition: transform 0.3s;
+        }
+        .breed-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .breed-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .breed-name {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #2c3e50;
+        }
+        .section-divider {
+            border-top: 1px solid #eee;
+            margin: 40px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Любовь и забота о ваших питомцах</h1>
+        <p>Мы представляем полную информацию о содержании, уходе и особенностях различных пород собак.</p>
+    </header>
+
+    <div class="section-divider"></div>
+
+    <h2>Популярные породы собак</h2>
+    <div class="breed-container">
+        <!-- Порода 1 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_1280.jpg" alt="Лабрадор-ретривер">
+            <div class="breed-name">1. Лабрадор-ретривер</div>
+            <p>Дружелюбные, энергичные собаки. Отличные компаньоны и помощники.</p>
+        </div>
+
+        <!-- Порода 2 -->
+        <div class="breed-card">
+            <img src="pictiures/nemetskaya-ovcharka.jpg" alt="Немецкая овчарка">
+            <div class="breed-name">2. Немецкая овчарка</div>
+            <p>Умные, преданные собаки. Широко используются в службах спасения.</p>
+        </div>
+
+        <!-- Порода 3 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2017/09/25/13/14/dog-2785077_1280.jpg" alt="Золотистый ретривер">
+            <div class="breed-name">3. Золотистый ретривер</div>
+            <p>Добродушные, терпеливые собаки. Отлично ладят с детьми.</p>
+        </div>
+
+        <!-- Порода 4 -->
+        <div class="breed-card">
+            <img src="pictiures/Frantsuzskij-buldog-Goluboj-tsena-Moskva-3.jpeg" alt="Французский бульдог">
+            <div class="breed-name">4. Французский бульдог</div>
+            <p>Компактные, весёлые собаки с характерной внешностью.</p>
+        </div>
+
+        <!-- Порода 5 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2016/07/15/15/55/dachshund-1519374_1280.jpg" alt="Такса">
+            <div class="breed-name">5. Такса</div>
+            <p>Смелые, энергичные собаки с удлинённым телом.</p>
+        </div>
+
+        <!-- Порода 6 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2016/02/19/15/46/dog-1210559_1280.jpg" alt="Сибирский хаски">
+            <div class="breed-name">6. Сибирский хаски</div>
+            <p>Выносливые, дружелюбные собаки с густой шерстью.</p>
+        </div>
+
+        <!-- Порода 7 -->
+        <div class="breed-card">
+            <img src="pictiures/bigl.png" alt="Бигль">
+            <div class="breed-name">7. Бигль</div>
+            <p>Весёлые, любознательные собаки с отличным нюхом.</p>
+        </div>
+
+        <!-- Порода 8 -->
+        <div class="breed-card">
+            <img src="pictiures/pudel.jpg" alt="Пудель">
+            <div class="breed-name">8. Пудель</div>
+            <p>Умные, легко обучаемые собаки с кудрявой шерстью.</p>
+        </div>
+
+        <!-- Порода 9 -->
+        <div class="breed-card">
+            <img src="pictiures/Velsh_korgy_pembrock_1.jpg" alt="Корги">
+            <div class="breed-name">9. Вельш-корги</div>
+            <p>Активные, сообразительные собаки с короткими лапами.</p>
+        </div>
+
+        <!-- Порода 10 -->
+        <div class="breed-card">
+            <img src="pictiures/rotveiler.jpg" alt="Ротвейлер">
+            <div class="breed-name">10. Ротвейлер</div>
+            <p>Сильные, уверенные собаки с развитым защитным инстинктом.</p>
+        </div>
+
+        <!-- Порода 11 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2016/01/05/17/51/dog-1123016_1280.jpg" alt="Доберман">
+            <div class="breed-name">11. Доберман</div>
+            <p>Элегантные, бдительные собаки с сильным характером.</p>
+        </div>
+
+        <!-- Порода 12 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2016/03/27/21/16/pet-1284307_1280.jpg" alt="Шпиц">
+            <div class="breed-name">12. Померанский шпиц</div>
+            <p>Маленькие, пушистые собаки с жизнерадостным характером.</p>
+        </div>
+
+        <!-- Порода 13 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2016/02/26/16/32/bulldog-1224267_1280.jpg" alt="Бульдог">
+            <div class="breed-name">13. Английский бульдог</div>
+            <p>Спокойные, добродушные собаки с характерной мордой.</p>
+        </div>
+
+        <!-- Порода 14 -->
+        <div class="breed-card">
+            <img src="pictiures/mops.png" alt="Мопс">
+            <div class="breed-name">14. Мопс</div>
+            <p>Компактные, обаятельные собаки с выразительной мордочкой.</p>
+        </div>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <h2>Наши услуги</h2>
+    <table>
+        <tr>
+            <th>Дрессировка</th>
+            <th>Груминг</th>
+            <th>Выставки</th>
+            <th>Консультации</th>
+        </tr>
+        <tr>
+            <td>Профессиональная дрессировка собак любых пород</td>
+            <td>Полный комплекс услуг по уходу за шерстью</td>
+            <td>Подготовка и участие в выставках</td>
+            <td>Советы по содержанию и воспитанию</td>
+        </tr>
+    </table>
+
+    <a href="index.html" class="back-link">← Вернуться на главную страницу</a>
+</body>
+</html>

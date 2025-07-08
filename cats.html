@@ -1,0 +1,223 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Породы кошек - Любовь и забота о ваших питомцах</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        .breed-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .breed-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            transition: transform 0.3s;
+        }
+        .breed-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .breed-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .breed-name {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #2c3e50;
+        }
+        .section-divider {
+            border-top: 1px solid #eee;
+            margin: 40px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Любовь и забота о ваших питомцах</h1>
+        <p>Мы представляем полную информацию о содержании, уходе и особенностях различных пород кошек.</p>
+    </header>
+
+    <div class="section-divider"></div>
+
+    <h2>Популярные породы кошек</h2>
+    <div class="breed-container">
+        <!-- Порода 1 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg" alt="Британская короткошёрстная">
+            <div class="breed-name">1. Британская короткошёрстная</div>
+            <p>Крепкая, плюшевая кошка с круглой мордой. Спокойная и независимая.</p>
+        </div>
+
+        <!-- Порода 2 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg" alt="Мейн-кун">
+            <div class="breed-name">2. Мейн-кун</div>
+            <p>Одна из самых крупных пород. Дружелюбные, умные и общительные.</p>
+        </div>
+
+        <!-- Порода 3 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2015/11/16/22/14/cat-1046544_1280.jpg" alt="Персидская кошка">
+            <div class="breed-name">3. Персидская кошка</div>
+            <p>Длинношёрстная порода с приплюснутой мордой. Спокойные и ласковые.</p>
+        </div>
+
+        <!-- Порода 4 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2018/04/20/17/18/cat-3336579_1280.jpg" alt="Сиамская кошка">
+            <div class="breed-name">4. Сиамская кошка</div>
+            <p>Грациозные, голубоглазые кошки с громким голосом. Очень общительные.</p>
+        </div>
+
+        <!-- Порода 5 -->
+        <div class="breed-card">
+            <img src="pictiures/sfinks.jpg" alt="Сфинкс">
+            <div class="breed-name">5. Сфинкс</div>
+            <p>Бесшёрстная порода. Энергичные, любят тепло и внимание.</p>
+        </div>
+
+        <!-- Порода 6 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2018/01/28/12/37/cat-3113513_1280.jpg" alt="Русская голубая">
+            <div class="breed-name">6. Русская голубая</div>
+            <p>Элегантные кошки с серебристо-голубой шерстью. Скромные и нежные.</p>
+        </div>
+
+        <!-- Порода 7 -->
+        <div class="breed-card">
+            <img src="pictiures/bengal.jpg" alt="Бенгальская кошка">
+            <div class="breed-name">7. Бенгальская кошка</div>
+            <p>Экзотическая порода с леопардовым окрасом. Активные и любопытные.</p>
+        </div>
+
+        <!-- Порода 8 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2017/07/25/01/22/cat-2536662_1280.jpg" alt="Шотландская вислоухая">
+            <div class="breed-name">8. Шотландская вислоухая</div>
+            <p>Известны своими загнутыми ушами. Дружелюбные и адаптивные.</p>
+        </div>
+
+        <!-- Порода 9 -->
+        <div class="breed-card">
+            <img src="pictiures/lesnaya.jpg" alt="Норвежская лесная">
+            <div class="breed-name">9. Норвежская лесная</div>
+            <p>Крупные кошки с густой шерстью. Независимые, но дружелюбные.</p>
+        </div>
+
+        <!-- Порода 10 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2017/03/14/14/49/cat-2143332_1280.jpg" alt="Абиссинская кошка">
+            <div class="breed-name">10. Абиссинская кошка</div>
+            <p>Стройные кошки с тикированной шерстью. Энергичные и любознательные.</p>
+        </div>
+
+        <!-- Порода 11 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2018/01/03/19/17/cat-3059075_1280.jpg" alt="Рэгдолл">
+            <div class="breed-name">11. Рэгдолл</div>
+            <p>Крупные, расслабленные кошки. Полностью доверяют хозяевам.</p>
+        </div>
+
+        <!-- Порода 12 -->
+        <div class="breed-card">
+            <img src="pictiures/orientalnaya.jpg" alt="Ориентальная кошка">
+            <div class="breed-name">12. Ориентальная кошка</div>
+            <p>Утончённые кошки с большими ушами. Очень разговорчивые и активные.</p>
+        </div>
+
+        <!-- Порода 13 -->
+        <div class="breed-card">
+            <img src="pictiures/birman.jpg" alt="Бирманская кошка">
+            <div class="breed-name">13. Бирманская кошка</div>
+            <p>Полудлинношёрстные кошки с голубыми глазами. Спокойные и преданные.</p>
+        </div>
+
+        <!-- Порода 14 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2015/03/27/13/16/cat-694730_1280.jpg" alt="Турецкий ван">
+            <div class="breed-name">14. Турецкий ван</div>
+            <p>Полудлинношёрстные кошки, любящие воду. Активные и игривые.</p>
+        </div>
+
+        <!-- Порода 15 -->
+        <div class="breed-card">
+            <img src="https://cdn.pixabay.com/photo/2016/01/20/13/05/cat-1151519_1280.jpg" alt="Корниш-рекс">
+            <div class="breed-name">15. Корниш-рекс</div>
+            <p>Короткошёрстные кошки с волнистой шерстью. Энергичные и ласковые.</p>
+        </div>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <h2>Наши услуги</h2>
+    <table>
+        <tr>
+            <th>Консультации</th>
+            <th>Уход</th>
+            <th>Фотосессии</th>
+            <th>Другие услуги</th>
+        </tr>
+        <tr>
+            <td>Профессиональные советы по содержанию и воспитанию кошек</td>
+            <td>Полный комплекс услуг по уходу за вашим питомцем</td>
+            <td>Профессиональная фотосъёмка вашего любимца</td>
+            <td>Подбор аксессуаров и кормов для вашей кошки</td>
+        </tr>
+    </table>
+
+    <a href="index.html" class="back-link">← Вернуться на главную страницу</a>
+</body>
+</html>
